@@ -3,6 +3,8 @@ def comma(value)=
 	for i in value:
 		if i != value[-1]:
 			sentence+= i +', '
+		else:
+			sentence += 'and '+ i
 
 
 	return sentence
